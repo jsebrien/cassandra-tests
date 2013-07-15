@@ -137,7 +137,7 @@ public class CollectionMapTest {
 
     // List the first pizza
     listAll(session);
-
+    session.shutdown();
   }
 
   private String listAll(Session session) throws Exception {

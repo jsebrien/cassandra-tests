@@ -58,5 +58,6 @@ mvn test
 Use cases
 -------
 
-Store collections and maps in column families in cql3 using the Datastax Java Api.
+- Store collections and maps in column families in cql3 using the Datastax Java Api.
+- Bulk insert using bound statements in cql3 using the Datastax Java Api.
 
