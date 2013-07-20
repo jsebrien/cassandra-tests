@@ -48,13 +48,6 @@ public class CounterTest {
     
     Session session = cluster.connect("pizzastore");
     
-    LOGGER.info("Insert 1 entry");
-    /*Insert insertStatement = QueryBuilder.insertInto("stats");
-    insertStatement.value("pizza_id", UUIDs.random().toString());
-    
-    resultSet = session.execute(insertStatement.getQueryString());
-    info = resultSet.getExecutionInfo();*/
-    
     String pizzaId = UUIDs.random().toString();
     
     LOGGER.info("Increment the counter");
