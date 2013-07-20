@@ -9,3 +9,8 @@ CREATE TABLE pizzas (
   recipies_sites list<text>,
   molecules map<text, double>
 );
+
+CREATE TABLE stats (
+  pizza_id text PRIMARY KEY,
+  nb_ordered counter,
+);
